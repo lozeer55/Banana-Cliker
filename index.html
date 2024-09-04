@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Banana Clicker</title>
+  <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="css/uikit.min.css">
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+<div class="fondo uk-background-muted">
+
+
+  <button onclick="restGame()">borrar</button>
+  <br>
+  <div class="sectionLeft ">
+    <center>
+      <div class="scoreContainer">
+        <span id="score">0</span> bananas <br />
+        <span id="persecond">0</span> bananas por segundo
+      </div>
+      <br />
+      <div class="clickerContainer">
+        <img class="banana" src="./img/8-banana-png-image.png" alt="" id="clicker" />
+      </div>
+    </center>
+  </div>
+
+  <div class="sectionRight">
+    <div id="upgradeContainer"></div>
+    <div id="shopcontainer"></div>
+
+  </div>
+</div>
+
+  <script src="./js/juego.js"></script>
+</body>
+
+</html>
